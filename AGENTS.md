@@ -4,7 +4,22 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is an academic research paper titled "Causal-Normative Networks" by Brett Reynolds.
+This is an academic research paper by Brett Reynolds (provisional title: "Normative Status in Causal Networks"; final title open, see `STATUS.md`). It is the foundational companion to the act-kinds paper (`../Moral_act-kinds_as_nodes_in_causal-normative_networks/`). The act-kinds paper *uses* causal-normative networks to explain why moral act-kinds are projectible; this paper makes *causal-normative network* itself the explanandum.
+
+Role: Editor/Researcher. Deep work welcome (drafting, argument development, sourcing).
+
+Full design lives in `planning/brief.md`. Working state in `STATUS.md`.
+
+## Project-Specific Guidance
+
+- **Animating question:** what kind of explanatory structure contains both causal relations and normative transitions without reducing either to the other?
+- **Thesis:** a causal-normative network is a typed, coupled structure (normative statuses alter practical positions; causal mechanisms transmit uptake and response; recognition links connect the two). Neither a causal graph with moral labels nor a normative taxonomy with sociology appended.
+- **Keep the four dependence types distinct:** causal, constitutive, normative-transition, recognitional. The whole point is that they compose one network without collapsing into one relation-type. Do not silently reduce normative status to beliefs, sanctions, or dispositions, and do not treat causal talk as mere metaphor for rules.
+- **Central opponent:** the forced-choice view (reduce-to-causal or reduce-to-normative), not essentialism. Essentialism is the act-kinds paper's opponent; do not import it here.
+- **Four carrying cases:** promise, consent, official judgment or registration, discrimination. Prefer these recurring four over scattering examples.
+- **Social efficacy vs moral validity:** a status-assignment can be socially effective while normatively invalid (misrecognition, discrimination). Keep this distinction sharp; it is a main payoff.
+- **Relation to the sister paper:** do not conflate the two projects, and do not rewrite the act-kinds paper as this one. A bridge sentence is recommended for the act-kinds paper's Section 3 (see `planning/brief.md`), but applying it needs Brett's go-ahead.
+- **Source-grounding (LAW):** legal, speech-act, and deontic claims must come from sources. Verified entries reused from the sister paper live in `references-local.bib`; reuse keys, do not regenerate bibliographic data.
 
 ## Build System
 

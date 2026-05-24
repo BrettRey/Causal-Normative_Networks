@@ -5,10 +5,16 @@
 
 % Update PDF metadata
 \hypersetup{
-  pdftitle={Causal-Normative Networks}
+  pdftitle={Normative Status in Causal Networks}
 }
 
-\title{Causal-Normative Networks}
+% PROVISIONAL TITLE. Candidates under consideration (see planning/brief.md):
+%   - What Is a Causal-Normative Network?            (blunt)
+%   - Normative Status in Causal Networks            (journal-friendly; current pick)
+%   - How Normative Status Enters Causal Explanation (journal-friendly)
+%   - Mixed Networks: Causation, Recognition, and Deontic Status
+%   - The Structure of Causal-Normative Explanation
+\title{Normative Status in Causal Networks}
 \author{Brett Reynolds \orcidlink{0000-0003-0073-7195}%
 \thanks{Contact: \href{mailto:brett.reynolds@humber.ca}{brett.reynolds@humber.ca}}\\
 Humber Polytechnic \& University of Toronto}
@@ -18,35 +24,85 @@ Humber Polytechnic \& University of Toronto}
 \maketitle
 
 \begin{abstract}
-TODO: Write abstract here.
+Some social and moral explanations need both causal relations and normative transitions in one structure, without reducing either to the other. This paper asks what such a structure is. A \term{causal-normative network} is a typed, heterogeneous explanatory structure: normative statuses alter practical positions, causal mechanisms transmit uptake and response, and recognition links let agents and institutions track, mis-track, or constitutively alter statuses. Such networks are neither causal graphs with moral labels added nor normative taxonomies with sociology appended. Building on \textcite{khalidi2018nodes} on ordered causal networks and \textcite{boyd1999} on homeostatic clusters, but going beyond both, I argue that four kinds of dependence (causal, constitutive, normative-transition, and recognitional) compose one network without collapsing into one relation-type. The coupling is counterfactually real: status-rule interventions, recognition interventions, and authorized-recognition interventions come apart. Misrecognition is the diagnostic case; it explains how an invalid status-assignment becomes socially effective without becoming morally valid.
+% TODO: tighten to journal abstract length once §§4--6 stabilise.
 \end{abstract}
 
-\section{Introduction}
+\section{The problem of mixed explanation}
+\label{sec:problem}
 
-TODO: Write introduction here.
+The target is mixed. A promise is not explained by the sound pattern, the promisor's psychology, or the promisee's reliance alone, but it is also not explained by saying that an obligation exists. The obligation matters because it is taken up through expectation, reliance, demand, excuse, apology, repair, sanction, and record. Consent shows the same pattern from the permission side: it does not merely cause the surgeon to proceed, it alters what the surgeon is permitted to do, and that permission is tracked through forms, protocols, testimony, liability, and review. So the animating question is: what kind of explanatory structure contains both causal relations and normative transitions without reducing either to the other?
 
-\section{Background}
+The apparatus rests on a distinction among four kinds of dependence.
 
-TODO: Add background section.
+\begin{description}
+  \item[Causal dependence.] One event, disposition, procedure, affective response, record, sanction, or expectation helps produce another. A public promise causes reliance; a judgment causes enforcement.
+  \item[Constitutive dependence.] One status partly consists in, or brings with it, another position internal to the practice. A directed obligation gives the promisee standing to demand performance; that standing is part of being owed something, not a predictable effect of it \citep{hohfeld1913SomeFundamental}.
+  \item[Normative-transition dependence.] One status changes into, generates, blocks, terminates, defeats, or modifies another. Release terminates an obligation; withdrawal terminates a permission; breach generates a secondary profile of demand, blame, apology, repair, or excuse.
+  \item[Recognition dependence.] Agents or institutions track, fail to track, or mis-track a status. Sometimes recognition merely registers a status; sometimes authorized recognition creates or alters it. A court judgment can create enforceable liability; a bystander's belief that someone has been released does not create release.
+\end{description}
 
-\section{Analysis}
+% TODO: motivate the four-way distinction with the promise/consent pair before stating the thesis. Keep this section the reader's entry point.
 
-TODO: Add analysis section.
+\section{Why ordinary causal networks are not enough}
+\label{sec:causal-not-enough}
 
-\section{Discussion}
+Engage \textcite{khalidi2018nodes} directly. His account treats kinds as ordered nodes in causal networks, where projectibility depends on causal relations among properties, not mere co-occurrence. Accept that structure, then show that moral, legal, speech-act, and institutional kinds require a broader typed network. The pivot: Khalidi is right that projectibility requires order; the moral and institutional cases show that not all order is causal order.
 
-TODO: Add discussion.
+% TODO: develop the pivot. What does "order" buy, and where does causal order run out?
+
+\section{Why normative taxonomies are not enough}
+\label{sec:normative-not-enough}
+
+Argue against the opposite simplification. A purely normative taxonomy can say that promises generate obligations, consent generates permissions, release terminates obligations, and breach licenses complaint. But without uptake, recognition, misrecognition, enforcement, reliance, and repair, it cannot explain why these classifications are projectible in lived practice. Boyd's anti-essentialist clustering \citep{boyd1999, boyd1988} shows kinds can be real and projectible without necessary and sufficient conditions; the present point is that the sustaining structure here is partly normative and partly causal.
+
+% TODO: use the act-kinds paper's promise-breaking life-cycle as evidence (cite the sister paper once posted).
+
+\section{The typed-edge model}
+\label{sec:typed-edge}
+
+The technical centre. A causal-normative network contains different kinds of nodes and different kinds of links, and the heterogeneity is the point, not a defect.
+
+\begin{description}
+  \item[Nodes.] performances (utterances, signatures, actions, omissions); deontic statuses (obligation, permission, power, liability, immunity, standing); transition events (undertaking, authorization, release, withdrawal, breach, defeat); recognition states (belief, record, official classification, uptake); response states (blame, resentment, apology, repair, sanction, trust update); field structures (legal, interpersonal, institutional, professional, medical, epistemic).
+  \item[Edges.] causal (the utterance causes reliance); constitutive (directed obligation includes correlative standing); normative-transition (release terminates obligation); recognitional (parties recognize or misrecognize the obligation); authority-conferring (a recognized official act creates the status it records); projective (classification licenses defeasible inferences about later responses).
+\end{description}
+
+% TODO: state the well-formedness conditions on such networks and connect illocutionary types to deontic-modal edges \citep{sbisa2023OnIllocutionaryTypes}.
+
+\section{Coupling and intervention}
+\label{sec:coupling}
+
+What makes this one network rather than a causal system plus a normative commentary? Coupled counterfactual structure. Three intervention types come apart. \emph{Status-rule interventions} alter the normative layer, then propagate through causal uptake: if the speaker lacks authority the same words may fail to bind; if the promisee releases the promisor the same non-performance is no longer breach. \emph{Recognition interventions} alter causal uptake while the status may hold fixed: a person falsely believed to have promised faces demands they do not owe. \emph{Authorized-recognition interventions} alter both: a judgment, registration, or accepted resignation can change the status it records.
+
+% TODO: render the three interventions as explicit counterfactual signatures; this is the philosophical core.
+
+\section{Misrecognition as the diagnostic case}
+\label{sec:misrecognition}
+
+Misrecognition is the best diagnostic, because it defeats both reductions. If the account were purely causal, widespread misrecognition would make the status real (if everyone treats me as having promised, I promised). If purely normative, the causal effects of misrecognition would be mere noise. Both are wrong: misrecognition can be causally powerful while normatively defective. This is also where oppression is handled cleanly. Discriminatory classification creates socially effective positions without creating valid degraded standing; the apparatus explains how an invalid status-assignment becomes socially real in its effects without becoming morally valid.
+
+% TODO: this may be the most important section. Separate social efficacy from moral validity explicitly.
+
+\section{Fields}
+\label{sec:fields}
+
+A field fixes which edges are live, which agents have authority, which recognitions are status-altering, which records count, and which projections matter. In interpersonal morality, breach projects toward blame, apology, repair, and trust revision; in contract law, toward liability, damages, or excuse \citep{americanLawInstitute1981RestatementContracts}; in medicine, toward authorization, protocol, liability, and trust; in speech-act practice, an illocutionary act alters the deontic-modal position of participants \citep{sbisa2023OnIllocutionaryTypes}. Fields do not create arbitrary projections; they parameterize a shared typed network. That avoids both universalism and relativism.
+
+% TODO: define "field" precisely and relate to the act-kinds paper's coordination-regime gloss.
 
 \section{Conclusion}
+\label{sec:conclusion}
 
-TODO: Write conclusion.
+% TODO: restate the strongest claim. Some explanations are unavailable unless causal and normative relations are represented in one coupled structure; the projectibility of the classification then depends on their patterned interaction through recognition, uptake, authority, and response.
 
 \section*{Acknowledgements}
 
 % TODO: Replace with the actual models used on this project and their current versions.
-% Check model names: frontier models change frequently (e.g., GPT-4 → GPT-4o → o3).
+% Check model names: frontier models change frequently.
 This paper was drafted with the assistance of large language models. All content has been reviewed and revised by the author, who takes full responsibility for the final text.
 
+\newpage
 \printbibliography
 
 \end{document}
