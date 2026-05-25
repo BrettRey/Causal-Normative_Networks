@@ -1,37 +1,61 @@
 # STATUS.md - Causal-Normative Networks
 
-**Last updated:** 2026-05-24
-**Current phase:** Scaffolded (pre-draft)
-**GitHub:** not yet created (local git only)
+**Last updated:** 2026-05-25
+**Current phase:** Draft stabilized after two review rounds; public repo created; substance frozen pending proofread/polish
+**GitHub:** https://github.com/BrettRey/Causal-Normative_Networks
 **Provisional title:** Normative Status in Causal Networks
 
 ## Overview
 
-Foundational companion to the act-kinds paper. Where the act-kinds paper uses causal-normative networks to explain the projectibility of moral act-kinds, this paper makes *causal-normative network* itself the explanandum. Full design in `planning/brief.md`.
+Foundational companion to the act-kinds paper. Where the act-kinds paper uses causal-normative networks to explain the projectibility of moral act-kinds, this paper makes *causal-normative network* itself the explanandum.
 
-Animating question: what kind of explanatory structure contains both causal relations and normative transitions without reducing either to the other?
+Working orientation: Khalidi-forward. Khalidi supplies the network-order/projectibility frame; this paper extends that frame from ordinary causal networks to typed causal-normative networks. Boyd is no longer part of the main scaffold, except possibly as compact background.
 
-## What exists now
+## Current Thesis
 
-- `main.tex` skeleton: 8-section spine (problem of mixed explanation, two no-reduction arguments, typed-edge model, coupling/intervention, misrecognition, fields, conclusion), with the four-dependence apparatus and node/edge inventory stubbed in. Each section has an orientation paragraph plus a TODO.
-- `planning/brief.md`: full design brief (thesis, gap, four dependence types, opponent, structure, intervention typology, misrecognition payoff, fields, four carrying cases, candidate titles, sources).
-- `abstract.md`: draft abstract.
-- `references-local.bib`: 9 verified entries reused from the act-kinds paper (Khalidi 2018, Sbisà 2023, Boyd 1988, Owens 2012, Hohfeld 1913, Gilbert 1999, Scanlon 1998, Restatement of Contracts, Ward 2023). `references.bib` symlinks the central bib (Boyd 1999 lives there).
+Some social and moral explanations need causal relations and normative transitions represented in one coupled structure. A causal-normative network has three directed edge types (causal, normative-transition, recognitional) plus a non-directed constitutive tie. Its key payoff is the three-way distinction among social efficacy, validity within a field, and moral warrant.
 
-## Open decisions
+Misrecognition and wrongful conferral are diagnostic. A status-assignment can be socially effective, and sometimes field-valid, without acquiring moral warrant. Discrimination is now treated as wrongful conferral at regime scale, not merely as false belief or local tracking failure.
 
-- **Title.** Provisional pick is "Normative Status in Causal Networks." Candidates listed in `main.tex` header and `planning/brief.md`. The folder name (`Causal-Normative_Networks`) is title-independent and stable.
-- **Solo vs collaborative.** The act-kinds sister paper was pitched to Khalidi as a possible collaboration (awaiting reply, as of the May 8 pitch). This foundational paper is framed as solo ("that gap is yours"). Confirm before involving co-authors.
-- **Target venue.** TBD. The journal-friendly titles suggest a philosophy-of-science or social-ontology venue.
+## What Exists Now
 
-## Next actions
+- `main.tex`: 12-page draft with all sections written, two TikZ figures, and two review rounds addressed.
+- `main.pdf`: current build, 12 pages.
+- `abstract.md`: synced to the current abstract framing.
+- `planning/brief.md`: original design brief, still useful for architecture and title options but partly superseded by the current draft.
+- `planning/source-map.md`: updated section-by-section source map and local-source inventory.
+- `references-standalone.bib`: public-build bibliography extracted from verified central entries.
+- `references-local.bib`: cleared after `/push-bib`; new entries now live in the central bibliography.
+- `literature/`: local source pack, including moved Downloads sources for Ásta, Weinberger, Epstein, Searle 1995, Fraser/Honneth, and copied Pullum/Scholz. This directory is ignored and not pushed to GitHub.
 
-1. Decide the title.
-2. Draft Section 5 (coupling and intervention) first: render the three intervention types as explicit counterfactual signatures. This is the philosophical core and the rest hangs off it.
-3. Draft Section 6 (misrecognition) second: separate social efficacy from moral validity.
-4. Write the Khalidi pivot (Section 2) and the normative-taxonomy critique (Section 3).
-5. Decide whether to apply the recommended bridge sentence to the act-kinds paper's Section 3 (see `planning/brief.md`; needs Brett's go-ahead).
+## Review State
 
-## Relation to the act-kinds paper
+Both review rounds are addressed. The current draft incorporates:
 
-`papers/Moral_act-kinds_as_nodes_in_causal-normative_networks/`. The act-kinds paper does not require this one; it needs only enough of the network idea to make its argument intelligible. This paper explains why that apparatus is legitimate. See the comparison table in `planning/brief.md`.
+- three-way thesis language: efficacy / field-validity / moral warrant;
+- regularized edge inventory: three directed edges plus a constitutive tie;
+- recognition as fit, mis-fit, or no target;
+- broader normative-transition sources: performances, rules, statuses, and transition events;
+- §6 distinction between local misrecognition and wrongful conferral;
+- Figure 2 as wrongful conferral, with harm downstream of exclusion/sanction;
+- weakened overclaims about projectibility and explanatory reach;
+- optional Pullum/Rogers formal analogy;
+- Fraser/Honneth guardrail against over-recognition accounts of oppression.
+
+Declined for this paper: Lewis, Brandom, Hacking, and Haslanger. They pull toward adjacent projects; Sbisà, Ásta, Epstein, Searle, Weinberger, Kohler-Hausmann, Hu, and Fraser/Honneth are enough for the present argument.
+
+## Open Decisions
+
+- **Title.** Provisional pick is "Normative Status in Causal Networks." Alternatives remain in `main.tex` and `planning/brief.md`.
+- **Target venue.** TBD.
+- **Act-kinds bridge sentence.** Applied to the live sister manuscript on 2026-05-25.
+
+## Next Actions
+
+1. Run a final proofread pass if submission is imminent.
+2. Settle the title.
+3. Stop substantive expansion unless a new review or submission target creates a specific need.
+
+## Relation to the Act-Kinds Paper
+
+Sister project: `papers/Moral_act-kinds_as_nodes_in_causal-normative_networks/`. The act-kinds paper doesn't require this one; it needs only enough of the network idea to make its argument intelligible. This paper explains why that apparatus is legitimate.

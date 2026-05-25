@@ -13,3 +13,9 @@
 
 # macOS
 .DS_Store
+
+# Local/private source cache
+literature/
+
+# Figure verification scratch files
+figures/

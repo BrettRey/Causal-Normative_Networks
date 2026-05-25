@@ -18,10 +18,9 @@ A causal-normative network is a typed, heterogeneous explanatory structure in wh
 ## The gap (why it is worth writing)
 
 - Khalidi (2018) gives the ordered causal-network model for kinds: projectibility grounded in ordered causal properties and relations, not mere concatenation of properties. He does not give the mixed-edge structure.
-- Boyd (1999, 1988) gives anti-essentialist clustering: kinds can be real and projectible without necessary and sufficient conditions, because mechanisms sustain robust clusters. He does not give the mixed edges.
 - Sbisà (2023) gives a bridge from speech-act theory to deontic effects: illocutionary types can be characterized by assignment or cancellation of deontic-modal predicates. She does not give a general account of a network whose edges are partly causal, partly constitutive, partly normative, and partly recognitional.
 
-None of these, by itself, gives a general account of a mixed-edge network. That gap is the contribution.
+This paper should be Khalidi-forward. Boyd can remain available as compact background on homeostatic property clusters and anti-essentialist projectibility, but he should not carry the main scaffold. The live gap is that Khalidi gives ordered causal networks, while the moral and institutional cases require a mixed-edge extension of network order. Sbisà supplies a speech-act route into deontic effects, but not the general typed network.
 
 ## Four kinds of dependence (the core distinction)
 
@@ -132,8 +131,6 @@ Action: apply only with Brett's go-ahead. It edits the sister paper, which is a 
 ## Key sources (verified; reused from the act-kinds paper)
 
 - Khalidi 2018, "Natural Kinds as Nodes in Causal Networks", *Synthese* (key: `khalidi2018nodes`)
-- Boyd 1999, "Homeostasis, Species, and Higher Taxa" (key: `boyd1999`, central bib)
-- Boyd 1988, "How to Be a Moral Realist" (key: `boyd1988`)
 - Sbisà 2023, "On Illocutionary Types" (key: `sbisa2023OnIllocutionaryTypes`)
 - Hohfeld 1913, "Some Fundamental Legal Conceptions" (key: `hohfeld1913SomeFundamental`)
 - Owens 2012, *Shaping the Normative Landscape* (key: `owens2012ShapingNormativeLandscape`)
@@ -141,3 +138,5 @@ Action: apply only with Brett's go-ahead. It edits the sister paper, which is a 
 - Scanlon 1998, *What We Owe to Each Other* (key: `scanlon1998WhatWeOwe`)
 - American Law Institute 1981, *Restatement (Second) of Contracts* (key: `americanLawInstitute1981RestatementContracts`)
 - Ward 2023, "William Whewell, Cluster Theorist of Kinds" (key: `ward2023WhewellCluster`)
+
+Background only, not main scaffold: Boyd 1999, "Homeostasis, Species, and Higher Taxa" (key: `boyd1999`, central bib); Boyd 1988, "How to Be a Moral Realist" (key: `boyd1988`).
