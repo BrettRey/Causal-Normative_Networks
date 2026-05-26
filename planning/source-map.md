@@ -11,7 +11,7 @@ Purpose: keep citation use section-specific. The draft should cite only sources 
 - Treat DOI-backed entries as ready to cite unless the draft needs page-level quotation not yet checked in the PDF.
 - Treat `americanLawInstitute1981RestatementContracts` and `americanLawInstitute1982RestatementJudgments` as ready for basic Restatement metadata only. The contracts local copy is an unofficial black-letter web copy; the judgments entry is verified against ALI's official publication page. Use official volumes before quoting comments, illustrations, or reporter's notes.
 - Cite `raz2022NormativePowers` for the final published version. The local `raz-2019-normative-powers-revised` PDF can guide reading, but the citable target is the 2022 OUP chapter.
-- Cite `huForthcomingNormativeFactsCausalStructure` cautiously. It is a penultimate/forthcoming draft and shouldn't carry claims that need final publication page references.
+- Cite `huForthcomingNormativeFactsCausalStructure` cautiously. It is a 2025 penultimate/forthcoming draft and shouldn't carry claims that need final publication page references.
 - Pullum/Rogers is optional analogy only. Don't let it become a load-bearing source for the argument.
 
 ## Local Source Inventory Added 2026-05-25
@@ -20,7 +20,7 @@ Moved from `~/Downloads`:
 
 - Ásta, *Categories We Live By*: OUP chapter PDFs/Markdown, `literature/pdfs/asta-2018-categories-we-live-by-*` and `literature/markdown/asta-2018-categories-we-live-by-*`.
 - Epstein, *The Ant Trap*, ch. 6 "Grounding and Anchoring": `literature/pdfs/epstein-2015-ant-trap-ch06-grounding-and-anchoring.pdf` and matching Markdown.
-- Weinberger, "Signal Manipulation and the Causal Analysis of Racial Discrimination": `literature/pdfs/weinberger-2023-signal-manipulation.pdf` and matching Markdown.
+- Weinberger, "Signal Manipulation and the Causal Analysis of Racial Discrimination": local file names use 2023, but the article metadata is 2022; see `literature/pdfs/weinberger-2023-signal-manipulation.pdf` and matching Markdown.
 - Searle, *The Construction of Social Reality*: `literature/pdfs/searle-1995-construction-social-reality.pdf`, matching Markdown, and EPUB/MOBI in `literature/full-text/`.
 - Fraser and Honneth, *Redistribution or Recognition?*: `literature/pdfs/fraser-honneth-2003-redistribution-or-recognition.pdf` and matching Markdown.
 
@@ -30,7 +30,7 @@ Copied from the local Pullum project because it wasn't in Downloads:
 
 Still not locally mirrored:
 
-- Pullum and Rogers 2008. Kept as a URL-backed unpublished manuscript in `references-standalone.bib`; verify again before final submission if it remains cited.
+- Pullum and Rogers 2008. Kept as a URL-backed unpublished manuscript in `references-standalone.bib`; URL reachability rechecked on 2026-05-26. The host serves the PDF but has a certificate issue, so treat the analogy as optional and non-load-bearing.
 
 ## Section 1: The Problem of Mixed Explanation
 

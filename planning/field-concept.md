@@ -53,7 +53,7 @@ Counter-practices should be treated as rival or partial practices, not as simple
 
 ## What We Have Locally
 
-Core local sources are present in `literature/markdown/` and `literature/pdfs/`: Epstein 2015, Searle 1995/2005/2016, Ásta 2018, Khalidi 2015/2018, Sbisà 2009/2023, Boyd 1991/1999, Passinsky 2021, Fraser/Honneth 2003, Weinberger 2023, Kohler-Hausmann 2019, Hu 2025, Hohfeld, Owens, Raz, and the Restatement access records. ALI's official page for *Restatement of the Law Second, Judgments* is verified in `references-standalone.bib`.
+Core local sources are present in `literature/markdown/` and `literature/pdfs/`: Epstein 2015, Searle 1995/2005/2016, Ásta 2018, Khalidi 2015/2018, Sbisà 2009/2023, Boyd 1991/1999, Passinsky 2021, Fraser/Honneth 2003, Weinberger 2022, Kohler-Hausmann 2019, Hu 2025, Hohfeld, Owens, Raz, and the Restatement access records. ALI's official pages for *Restatement of the Law Second, Contracts* and *Restatement of the Law Second, Judgments* are verified in `references-standalone.bib`.
 
 ## What We Do Not Need Yet
 
