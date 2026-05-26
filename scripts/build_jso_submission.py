@@ -207,6 +207,7 @@ def abstract_and_keywords() -> tuple[str, str]:
 def make_markdown() -> None:
     result = run(["pandoc", "--from=latex", "--to=markdown", "--wrap=none", str(BLIND_TEX)], capture=True)
     md = result.stdout
+    md = re.sub(r'^\s*(?:\*\*Keywords:\*\*|Keywords:).*?\n+(?=# )', "", md, count=1, flags=re.S)
     md = re.sub(r"\n# Acknowledgements.*?(?=\n\[\^|\Z)", "\n", md, flags=re.S)
     md = re.sub(r"\n\[\^1\]: Contact:.*", "", md)
 

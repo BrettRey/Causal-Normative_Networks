@@ -1,8 +1,9 @@
 # STATUS.md - Causal-Normative Networks
 
 **Last updated:** 2026-05-26
-**Current phase:** JSO blind submission package regenerated after final micro-edits; ready for human upload/review
+**Current phase:** PhilArchive preprint live; keywords added; JSO blind submission package regenerated and ready for human upload/review
 **GitHub:** https://github.com/BrettRey/Causal-Normative_Networks
+**Preprint:** https://philarchive.org/rec/REYEWW
 **Working submission title:** Effective without Warrant: Causal-Normative Networks and the Social Life of Status
 **Working venue:** Journal of Social Ontology, regular article
 
@@ -21,7 +22,8 @@ Misrecognition and wrongful conferral are diagnostic. A status-assignment can be
 ## What Exists Now
 
 - `main.tex`: current polished draft with all sections written, two TikZ figures, two tables, and review rounds addressed.
-- `main.pdf`: current build, 18 pages.
+- `main.pdf`: current build, 19 pages.
+- PhilArchive preprint: `https://philarchive.org/rec/REYEWW` (archival date 2026-05-26).
 - `submission/jso/`: blind JSO package generated from `scripts/build_jso_submission.py`, including DOCX, RTF, internal-check PDF, figures, blind source, and submission checks.
 - `abstract.md`: synced to the current abstract framing.
 - `planning/brief.md`: original design brief, still useful for architecture and title options but partly superseded by the current draft.
@@ -67,9 +69,16 @@ Declined for this paper: Lewis, Brandom, Hacking, and Haslanger. They pull towar
 
 ## Next Actions
 
-1. Open and spot-check `submission/jso/effective-without-warrant-jso-blind.docx` in Word/LibreOffice before upload; local render-to-PNG QA is blocked here because `soffice` is not installed.
-2. Upload the blind DOCX to JSO if the title/venue still look right.
+1. Open and spot-check `submission/jso/effective-without-warrant-jso-blind.docx` in Word/LibreOffice before JSO upload; local render-to-PNG QA is blocked here because `soffice` is not installed.
+2. Upload the blind DOCX to JSO if the title/venue still look right; include the PhilArchive URL in any appropriate preprint field or cover note.
 3. Keep the LaTeX canonical draft as the source of truth; regenerate the package with `python3 scripts/build_jso_submission.py` after any further manuscript edits.
+
+## Session Log
+
+### 2026-05-26
+- PhilArchive preprint live as **REYEWW**: "Effective without Warrant: Causal-Normative Networks and the Social Life of Status." Archival date 2026-05-26. URL: https://philarchive.org/rec/REYEWW.
+- Updated tracking surfaces to treat the paper as a live preprint with JSO upload still pending.
+- Added keywords to the canonical LaTeX, PDF metadata, `abstract.md`, and regenerated blind JSO package.
 
 ## Relation to the Act-Kinds Paper
 
