@@ -2,7 +2,7 @@
 
 - Working venue: Journal of Social Ontology regular article.
 - Submission requirements checked against: https://journalofsocialontology.org/index.php/jso/submission (2026-05-26).
-- Working title: Effective without Warrant: Causal-Normative Networks and the Social Life of Status
+- Working title: Effective without warrant: Causal-normative networks and the social life of status
 - Blind manuscript DOCX: `effective-without-warrant-jso-blind.docx`
 - Blind manuscript RTF: `effective-without-warrant-jso-blind.rtf`
 - Blind PDF for internal checking: `jso-blind.pdf`

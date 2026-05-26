@@ -1,5 +1,5 @@
 ---
-title: "Effective without Warrant: Causal-Normative Networks and the Social Life of Status"
+title: "Effective without warrant: Causal-normative networks and the social life of status"
 reference-section-title: "References"
 ---
 

@@ -4,7 +4,7 @@
 **Current phase:** PhilArchive preprint live; keywords added; JSO blind submission package regenerated and ready for human upload/review
 **GitHub:** https://github.com/BrettRey/Causal-Normative_Networks
 **Preprint:** https://philarchive.org/rec/REYEWW
-**Working submission title:** Effective without Warrant: Causal-Normative Networks and the Social Life of Status
+**Working submission title:** Effective without warrant: Causal-normative networks and the social life of status
 **Working venue:** Journal of Social Ontology, regular article
 
 ## Overview
@@ -63,7 +63,7 @@ Declined for this paper: Lewis, Brandom, Hacking, and Haslanger. They pull towar
 
 ## Open Decisions
 
-- **Title.** Working submission title is "Effective without Warrant: Causal-Normative Networks and the Social Life of Status." Earlier alternatives remain in `planning/brief.md`.
+- **Title.** Working submission title is "Effective without warrant: Causal-normative networks and the social life of status." Earlier alternatives remain in `planning/brief.md`.
 - **Target venue.** Working target is Journal of Social Ontology regular article.
 - **Act-kinds bridge sentence.** Applied to the live sister manuscript on 2026-05-25.
 
@@ -76,7 +76,7 @@ Declined for this paper: Lewis, Brandom, Hacking, and Haslanger. They pull towar
 ## Session Log
 
 ### 2026-05-26
-- PhilArchive preprint live as **REYEWW**: "Effective without Warrant: Causal-Normative Networks and the Social Life of Status." Archival date 2026-05-26. URL: https://philarchive.org/rec/REYEWW.
+- PhilArchive preprint live as **REYEWW**: "Effective without warrant: Causal-normative networks and the social life of status." Archival date 2026-05-26. URL: https://philarchive.org/rec/REYEWW.
 - Updated tracking surfaces to treat the paper as a live preprint with JSO upload still pending.
 - Added keywords to the canonical LaTeX, PDF metadata, `abstract.md`, and regenerated blind JSO package.
 

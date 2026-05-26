@@ -124,7 +124,7 @@ Action: apply only with Brett's go-ahead. It edits the sister paper, which is a 
 - What Is a Causal-Normative Network? (blunt but good)
 - Causal-Normative Networks and Mixed Explanation
 - Normative Status in Causal Networks (journal-friendly; earlier provisional pick)
-- Effective without Warrant: Causal-Normative Networks and the Social Life of Status (current JSO submission title)
+- Effective without warrant: Causal-normative networks and the social life of status (current JSO submission title)
 - Mixed Networks: Causation, Recognition, and Deontic Status
 - The Structure of Causal-Normative Explanation
 - How Normative Status Enters Causal Explanation (journal-friendly)

@@ -19,7 +19,7 @@ from docx.shared import Inches, Pt
 ROOT = Path(__file__).resolve().parents[1]
 SUB = ROOT / "submission" / "jso"
 ASSETS = SUB / "assets"
-TITLE = "Effective without Warrant: Causal-Normative Networks and the Social Life of Status"
+TITLE = "Effective without warrant: Causal-normative networks and the social life of status"
 DOCX = SUB / "effective-without-warrant-jso-blind.docx"
 RTF = SUB / "effective-without-warrant-jso-blind.rtf"
 BLIND_TEX = SUB / "main.blind.tex"
@@ -400,7 +400,7 @@ def plain_text(path: Path) -> str:
 
 def write_checks() -> None:
     plain = plain_text(BLIND_MD)
-    plain = re.sub(r"^Effective without Warrant:.*?\n", "", plain, flags=re.S)
+    plain = re.sub(r"^Effective without warrant:.*?\n", "", plain, flags=re.S)
     body = plain.split("References", 1)[0]
     body_no_abstract = body.split("The problem of mixed explanation", 1)[-1]
     char_count = len(body_no_abstract)
