@@ -77,6 +77,7 @@ Declined for this paper: Lewis, Brandom, Hacking, and Haslanger. They pull towar
 
 ### 2026-05-27
 - Submitted "Effective without warrant: Causal-normative networks and the social life of status" to the Journal of Social Ontology as a regular article. Status is now under review; manuscript ID not yet recorded.
+- Updated the CV PDF and website publication entry to show "Under review at Journal of Social Ontology"; website commit `d5cd4c1` was pushed to `main`. GitHub raw showed the update immediately; `brettreynolds.ca` was still serving cached HTML on the first checks after push.
 - Corrected the title back to sentence case across the canonical LaTeX metadata/title, `STATUS.md`, `DECISIONS.md`, `planning/brief.md`, generated JSO blind sources/checks, CV, website, `PORTFOLIO.md`, and central bibliography entry.
 - Regenerated and shipped the sentence-case JSO package. Project commit `b8c4561` (`Use sentence case for submission title`) was pushed to `origin/master`.
 - Website publication entry and CV were corrected to sentence case, rebuilt, deployed, and verified live. Website commit `086dc33` (`Use sentence case for effective without warrant`) was pushed to `main`.
