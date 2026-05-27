@@ -9,9 +9,12 @@ import subprocess
 import sys
 import tempfile
 import zipfile
+from datetime import date
 from pathlib import Path
 
 from docx import Document
+from docx.enum.text import WD_ALIGN_PARAGRAPH
+from docx.oxml import OxmlElement
 from docx.oxml.ns import qn
 from docx.shared import Inches, Pt
 
@@ -25,6 +28,7 @@ RTF = SUB / "effective-without-warrant-jso-blind.rtf"
 BLIND_TEX = SUB / "main.blind.tex"
 BLIND_MD = SUB / "main.blind.md"
 COUNTS = SUB / "submission-checks.md"
+CHECK_DATE = date.today().isoformat()
 CHICAGO_CSL = Path(
     "/Users/brettreynolds/Library/Application Support/Mendeley Desktop/"
     "citationStyles-1.0/chicago-author-date.csl"
@@ -149,6 +153,21 @@ def set_run_font(run, name: str, size: int) -> None:
     r_fonts.set(qn("w:cs"), name)
 
 
+def add_page_number_field(run) -> None:
+    begin = OxmlElement("w:fldChar")
+    begin.set(qn("w:fldCharType"), "begin")
+    instr = OxmlElement("w:instrText")
+    instr.set(qn("xml:space"), "preserve")
+    instr.text = " PAGE "
+    separate = OxmlElement("w:fldChar")
+    separate.set(qn("w:fldCharType"), "separate")
+    text = OxmlElement("w:t")
+    text.text = "1"
+    end = OxmlElement("w:fldChar")
+    end.set(qn("w:fldCharType"), "end")
+    run._r.extend([begin, instr, separate, text, end])
+
+
 def decontract(text: str) -> str:
     for old, new in CONTRACTIONS:
         text = re.sub(rf"\b{re.escape(old)}\b", new, text, flags=re.IGNORECASE)
@@ -234,9 +253,10 @@ def make_markdown() -> None:
 
     abstract, keywords = abstract_and_keywords()
     front = f"""---
-title: "{TITLE}"
 reference-section-title: "References"
 ---
+
+# {TITLE} {{.unnumbered}}
 
 # Abstract {{.unnumbered}}
 
@@ -310,6 +330,12 @@ def patch_docx() -> None:
         section.bottom_margin = Inches(1)
         section.left_margin = Inches(1)
         section.right_margin = Inches(1)
+        footer_para = section.footer.paragraphs[0]
+        footer_para._p.clear_content()
+        footer_para.alignment = WD_ALIGN_PARAGRAPH.CENTER
+        run = footer_para.add_run()
+        set_run_font(run, "Times New Roman", 12)
+        add_page_number_field(run)
 
     for paragraph in list(doc.paragraphs):
         if paragraph.style and paragraph.style.name == "Author" and not paragraph.text.strip():
@@ -410,7 +436,7 @@ def write_checks() -> None:
     text = f"""# JSO Submission Checks
 
 - Working venue: Journal of Social Ontology regular article.
-- Submission requirements checked against: https://journalofsocialontology.org/index.php/jso/submission (2026-05-26).
+- Submission requirements checked against: https://journalofsocialontology.org/index.php/jso/submission ({CHECK_DATE}).
 - Working title: {TITLE}
 - Blind manuscript DOCX: `{DOCX.name}`
 - Blind manuscript RTF: `{RTF.name}`
@@ -426,9 +452,9 @@ def write_checks() -> None:
 
 
 def package_zip() -> None:
-    zip_path = SUB / "effective-without-warrant-jso-blind-package-2026-05-26.zip"
-    if zip_path.exists():
-        zip_path.unlink()
+    for old_zip in SUB.glob("effective-without-warrant-jso-blind-package-*.zip"):
+        old_zip.unlink()
+    zip_path = SUB / f"effective-without-warrant-jso-blind-package-{CHECK_DATE}.zip"
     members = [DOCX, RTF, SUB / "jso-blind.pdf", COUNTS]
     with zipfile.ZipFile(zip_path, "w", zipfile.ZIP_DEFLATED) as zf:
         for member in members:

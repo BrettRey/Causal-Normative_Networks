@@ -32,6 +32,14 @@ Still not locally mirrored:
 
 - Pullum and Rogers 2008. Kept as a URL-backed unpublished manuscript in `references-standalone.bib`; URL reachability rechecked on 2026-05-26. The host serves the PDF but has a certificate issue, so treat the analogy as optional and non-load-bearing.
 
+## Local Source Inventory Added 2026-05-27
+
+Fetched from the *Journal of Social Ontology* OJS archive, with text extracts in `literature/text-extracts/`:
+
+- Almäng 2016, "Legal Facts and Dependence on Representations": `literature/pdfs/almang-2016-legal-facts-dependence-representations.pdf`.
+- Marques 2017, "The Relevance of Causal Social Construction": `literature/pdfs/marques-2017-relevance-causal-social-construction.pdf`.
+- Behrensen 2018, "Making Up Peoples? Conferralism about Nationality": `literature/pdfs/behrensen-2018-making-up-peoples-conferralism-nationality.pdf`.
+
 ## Section 1: The Problem of Mixed Explanation
 
 Claim: the central puzzle is a status-assignment that is socially effective, and sometimes field-valid or successfully conferred, without moral warrant.
@@ -88,9 +96,9 @@ Avoid: writing as though interventions on normative status are always physical l
 
 Claim: local misrecognition and wrongful conferral come apart. Discrimination is the regime case: a conferred, socially effective, practice-stabilized standing without moral warrant.
 
-Primary citations: `asta2018Categories`, `fraserHonneth2003Redistribution`, `bertrandMullainathan2004EmilyGreg`, `ayres1991FairDriving`, `weinbergerSignalManipulation`, `kohlerHausmann2019EddieMurphy`, `huForthcomingNormativeFactsCausalStructure`.
+Primary citations: `asta2018Categories`, `fraserHonneth2003Redistribution`, `bertrandMullainathan2004EmilyGreg`, `ayres1991FairDriving`, `weinbergerSignalManipulation`, `kohlerHausmann2019EddieMurphy`, `huForthcomingNormativeFactsCausalStructure`, `marques2017CausalSocialConstruction`.
 
-Use for: conferralism, the recognition/redistribution guardrail, audit-study efficacy, signal manipulation, thick ethical concepts, and normative presuppositions in causal measurement. Audit studies evidence signal-recognition-response pathways; entrenchment and standing do the extra work needed for wrongful conferral.
+Use for: conferralism, the recognition/redistribution guardrail, audit-study efficacy, signal manipulation, thick ethical concepts, normative presuppositions in causal measurement, and Marques's warning that causal social construction remains relevant even where constitutive construction is granted or unsettled. Audit studies evidence signal-recognition-response pathways; entrenchment and standing do the extra work needed for wrongful conferral.
 
 Current machinery added 2026-05-26: Table 2 separates social efficacy, institutional field-validity, communal successful conferral, recognitional fit, enforceability/finality, and moral warrant. The Figure 2 text now specifies conferring agents, base/ascription, and conferred standing.
 
@@ -100,9 +108,9 @@ Avoid: making discrimination merely a false-belief case. The important regime ca
 
 Claim: a field is an ordinary normative practice or domain, such as contract law, criminal law, medical ethics, ordinary promising, or friendship. It fixes the parameters the network leaves open: status repertoire, validity conditions, authorized agents, recognition channels, records, remedies, and defeaters. A field is the practice relative to which a status supports projections.
 
-Primary citations: `americanLawInstitute1981RestatementContracts`, `americanLawInstitute1982RestatementJudgments`, `sbisa2023OnIllocutionaryTypes`, `epstein2015AntTrap`, `searle1995Construction`, `asta2018Categories`, `boyd1999`, `messick1995Validity`.
+Primary citations: `americanLawInstitute1981RestatementContracts`, `americanLawInstitute1982RestatementJudgments`, `sbisa2023OnIllocutionaryTypes`, `epstein2015AntTrap`, `searle1995Construction`, `almang2016LegalFacts`, `asta2018Categories`, `behrensen2018MakingUpPeoples`, `boyd1999`, `messick1995Validity`.
 
-Use for: contract-law field examples, judgment field examples, deontic-modal speech acts, Epstein's grounding/anchoring distinction, Searle's institutional status functions, Ásta's institutional/communal conferral contrast, Boyd's field-relative projectibility/accommodation thought, and Messick as a limited analogy for validity as interpretation/use-relative rather than object-in-isolation.
+Use for: contract-law field examples, judgment field examples, deontic-modal speech acts, Epstein's grounding/anchoring distinction, Searle's institutional status functions, Almäng's distinction among institutional status, institutional function, and deontic relation, Ásta's institutional/communal conferral contrast, Behrensen's legal/social nationality contrast, Boyd's field-relative projectibility/accommodation thought, and Messick as a limited analogy for validity as interpretation/use-relative rather than object-in-isolation.
 
 Current machinery added 2026-05-26: §4 now has a compact projection ledger with promise, consent, judgment, and discrimination rows. §7 defines "stable enough" for field-relative projection as recurrence across cases, recognized routes for record or uptake, intelligible defeaters, and continuity between source and target nodes.
 

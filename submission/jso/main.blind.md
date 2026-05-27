@@ -1,7 +1,8 @@
 ---
-title: "Effective without warrant: Causal-normative networks and the social life of status"
 reference-section-title: "References"
 ---
+
+# Effective without warrant: Causal-normative networks and the social life of status {.unnumbered}
 
 # Abstract {.unnumbered}
 
@@ -51,7 +52,7 @@ Release makes the point again. If Owen releases Nora on Thursday, the same Frida
 
 Consent has the same shape. A patient signs a consent form before a procedure. The signed form may causally move many things: a nurse updates the chart, the surgeon schedules the room, the anaesthetist prepares the drugs. But the permission relation is not just that causal chain. If the patient withdraws consent before the procedure, the same incision changes status. The incision is no longer permitted treatment but a wrong. The withdrawal orders the later facts, because withdrawal changes what the later act is, even if some staff do not hear about it and the causal machinery keeps moving.
 
-The extension to Khalidi is narrow. Projectibility still requires order. In moral and institutional cases, some of the order is carried by normative transitions and recognitional links rather than by causal mechanisms alone. Section 4 builds that typed network; the present point is only that ordinary causal networks are too narrow, not that order was the wrong demand.
+The extension to Khalidi is narrow. Projectibility still requires order. Khalidi himself treats it as a live possibility that fundamental physics tracks structural real patterns while the special sciences track causal ones [@khalidi2013 pp. 211--212]. The moral and institutional cases make a parallel but more local point: some of their order is carried by normative transitions and recognitional links rather than by causal mechanisms alone. Section 4 builds that typed network; the present point is only that ordinary causal networks are too narrow, not that order was the wrong demand.
 
 # Why normative taxonomies are not enough {#sec:normative-not-enough}
 
@@ -251,6 +252,8 @@ The contrast is between an episode and a position. A single employer's biased ca
 
 The discrimination this account captures is entrenched wrongful conferral: recognitional and causal paths stabilize enough to support projection from ascription to degraded standing. The field may sustain that standing; morality rejects it. Other discrimination need not run through conferred standing. Resource allocation, exclusionary design, and statistical sorting can wrong without conferring a degraded status. The present account claims only the conferral-based cases.
 
+That limit matters. @marques2017CausalSocialConstruction [pp. 19--23] argues that causal social construction remains politically relevant even where constitutive construction is granted or unsettled. The graph should keep ordinary causal routes to harm visible alongside the narrower conferral pattern.
+
 The route to wrongful conferral begins with the recognition pattern of Section 5. At the audit-study stage, one can vary a signal or recognition node and watch uptake move while the applicant and moral facts hold fixed. But wrongful conferral adds a further step. Once that recognition-response pathway is entrenched in a stable practice, the pathway helps generate a degraded standing rather than merely misrecognizing one. Only a coupled, typed structure registers both moments: the recognition is real and effective, and the standing stabilized by that pathway remains unwarranted.
 
 # Fields {#sec:fields}
@@ -267,6 +270,8 @@ Those conditions do not hang together by accident. Records, registers, monitorin
 
 Field-validity is not the same as current recognition, enforceability, finality, or moral warrant. A contract can be valid even if a particular audience misses it; a release can terminate an obligation even if the promisee still demands performance; an unjust judgment can be procedurally valid while morally defective. The field fixes the validity conditions; recognition is one route by which agents track or fail to track those conditions.
 
+@almang2016LegalFacts [pp. 6--8] makes the legal version explicit: institutional status, deontic relation, and institutional function can come apart, so status and the exercise of its normally attached function should be represented separately.
+
 A limited analogy comes from assessment. @messick1995Validity argues that validity attaches to supported interpretations and actions based on scores, not to an instrument considered in isolation. The present issue is practice-relative status validity, not measurement validity.
 
 Communal cases need a further caution. In friendship, workplace standing, or discriminatory social position, there may be no office or rulebook that settles validity. The stricter question is whether the standing has been successfully conferred: whether agents with conferral standing in that context, operating through a stable enough practice, have imposed real constraints and enablements. Successful conferral can make the status socially real without giving the status moral warrant.
@@ -280,6 +285,8 @@ Field-parameterization lets the account steer between universalism and relativis
 Fields come in at least two kinds. Institutional fields assign status functions by authorized conferral; @searle1995Construction builds these from the assignment of function, collective intentionality, and constitutive rules. A contract, diagnosis, judgment, or accepted resignation lives here, and so does authorized recognition. Speech-act practice also belongs here when an illocutionary act alters the deontic-modal position of participants [@sbisa2023OnIllocutionaryTypes].
 
 Communal fields work differently. @asta2018Categories marks out statuses, gender and race among them, conferred by a community with conferral standing but no single office. That distinction explains why official judgment and discrimination, though both turn on recognition, behave so differently. The first is institutional: a recognition the field authorizes to make the status it records. The second is communal: a diffuse conferral with real constraints and enablements but no authorizing office, which is just why agents may have conferral standing while lacking moral authority to confer that status.
+
+@behrensen2018MakingUpPeoples [pp. 42--43] uses the same contrast for nationality: legal nationality is conferred through administrative acts, while social nationality is a multipolar process with no central authority. The example supports the field contrast without making nationality the template for every communal conferral.
 
 Ordinary promising and friendship are communal in this broad sense, though less regime-like than discriminatory standing. They lack a central office, but they still fix who can undertake, release, resent, apologize, repair, or defeat a claim well enough to support projection.
 

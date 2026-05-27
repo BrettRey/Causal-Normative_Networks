@@ -1,11 +1,11 @@
 # STATUS.md - Causal-Normative Networks
 
-**Last updated:** 2026-05-26
-**Current phase:** PhilArchive preprint live; keywords added; JSO blind submission package regenerated and ready for human upload/review
+**Last updated:** 2026-05-27
+**Current phase:** Submitted to Journal of Social Ontology on 2026-05-27; under review
 **GitHub:** https://github.com/BrettRey/Causal-Normative_Networks
 **Preprint:** https://philarchive.org/rec/REYEWW
 **Working submission title:** Effective without warrant: Causal-normative networks and the social life of status
-**Working venue:** Journal of Social Ontology, regular article
+**Venue:** Journal of Social Ontology, regular article; submitted 2026-05-27
 
 ## Overview
 
@@ -69,11 +69,18 @@ Declined for this paper: Lewis, Brandom, Hacking, and Haslanger. They pull towar
 
 ## Next Actions
 
-1. Open and spot-check `submission/jso/effective-without-warrant-jso-blind.docx` in Word/LibreOffice before JSO upload; local render-to-PNG QA is blocked here because `soffice` is not installed.
-2. Upload the blind DOCX to JSO if the title/venue still look right; include the PhilArchive URL in any appropriate preprint field or cover note.
-3. Keep the LaTeX canonical draft as the source of truth; regenerate the package with `python3 scripts/build_jso_submission.py` after any further manuscript edits.
+1. Wait for the Journal of Social Ontology editorial response.
+2. If the submission acknowledgement includes a manuscript ID, add it here and to `PORTFOLIO.md`.
+3. Keep the LaTeX canonical draft as the source of truth for any later revision or proof work; regenerate the package with `python3 scripts/build_jso_submission.py` after manuscript edits.
 
 ## Session Log
+
+### 2026-05-27
+- Submitted "Effective without warrant: Causal-normative networks and the social life of status" to the Journal of Social Ontology as a regular article. Status is now under review; manuscript ID not yet recorded.
+- Corrected the title back to sentence case across the canonical LaTeX metadata/title, `STATUS.md`, `DECISIONS.md`, `planning/brief.md`, generated JSO blind sources/checks, CV, website, `PORTFOLIO.md`, and central bibliography entry.
+- Regenerated and shipped the sentence-case JSO package. Project commit `b8c4561` (`Use sentence case for submission title`) was pushed to `origin/master`.
+- Website publication entry and CV were corrected to sentence case, rebuilt, deployed, and verified live. Website commit `086dc33` (`Use sentence case for effective without warrant`) was pushed to `main`.
+- Resolved the open local state by keeping the Khalidi 2013 clarification and targeted Journal of Social Ontology citations, then regenerating the blind JSO DOCX/RTF/PDF package from the canonical draft.
 
 ### 2026-05-26
 - PhilArchive preprint live as **REYEWW**: "Effective without warrant: Causal-normative networks and the social life of status." Archival date 2026-05-26. URL: https://philarchive.org/rec/REYEWW.
