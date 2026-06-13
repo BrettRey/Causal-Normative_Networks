@@ -117,3 +117,19 @@ Split five paragraphs to respect the 100-word house max. Build clean, 14 pp, ~6,
 2026-05-27: Treat "Effective without warrant: Causal-normative networks and the social life of status" as submitted to the Journal of Social Ontology and under review. Reason: Brett reported the JoSO submission was completed on 2026-05-27.
 
 2026-05-27: Keep the Khalidi 2013 clarification and the three targeted Journal of Social Ontology citations in the submission draft. Reason: the Khalidi passage narrows the quantum-level pressure point to structural/projectibility-making order, while Almäng 2016, Marques 2017, and Behrensen 2018 give venue-relevant support without turning the paper into a local literature survey.
+
+2026-05-28: Added Weinberger 2026 as a future revision guardrail, not a current submission change. Reason: his control-theoretic distinction supports the existing decision not to make fields Boydian HPCs in the running argument. Stabilising practices such as records, offices, sanctions, and training can keep a field projectible without making the field itself a strict homeostatic control system.
+
+2026-06-02: Parked the operator-stratum/public-update analogy as revision-only. Reason: promises, judgments, and wrongful conferrals share the public-update/accountability shape that explains operator value in grammaticality, but importing grammar terminology into the submitted JoSO paper would distract unless a reviewer asks for the cross-domain architecture.
+
+2026-06-12: Treat the current canonical LaTeX draft as a post-submission working revision, not as identical to the manuscript currently under JSO consideration. Reason: the paper was submitted on 2026-05-27, and the 2026-06-12 Jenkins/division-of-labour/modularity/morality edits were made afterward; when reviews arrive, compare reports against the submitted package before drafting the response.
+
+2026-06-12: Soften the division-of-labour reply from metaphysical indispensability to projection-profile perspicuity. Reason: grounding/anchoring plus causal mechanisms can list the facts, but the typed-edge network makes explicit where projections travel, where edge types change, and where warrant fails to follow.
+
+2026-06-12: Map Jenkins's ontic injustice across both wrongful institutional validity and wrongful communal conferral, not only wrongful communal conferral. Reason: Jenkins diagnoses the broader family of wrongs; this paper's contribution is to subdivide that family by assessment profile and edge route.
+
+2026-06-13: Recast the edge inventory as three relation-genera displayed by four graph roles: causal production, recognitional representation, and status-determination, with status-determination split between directed transitions and non-directed correlatives. Reason: this preserves the typed-edge contribution while conceding that transition edges are field-grounded determination rather than a separate metaphysical producer.
+
+2026-06-13: Treat Woodwardian intervention as diagnostic for causal production, not as a one-step classifier for every edge. Reason: correlative ties fail distinctness outright, but undertaking-to-duty transitions may involve distinct relata; the positive mark of status-determination is determination rather than production.
+
+2026-06-13: Make separability stage-relative in conferralist cases. Reason: repeated false recognition and wrongful conferral are distinguished by recursive stabilization and new projectible consequences, so loss of clean separability marks movement from episode to position rather than collapse of the distinction.

@@ -1,7 +1,7 @@
 # STATUS.md - Causal-Normative Networks
 
-**Last updated:** 2026-05-27
-**Current phase:** Submitted to Journal of Social Ontology on 2026-05-27; under review
+**Last updated:** 2026-06-13
+**Current phase:** Submitted to Journal of Social Ontology on 2026-05-27; under review. The canonical draft now includes post-submission working revisions.
 **GitHub:** https://github.com/BrettRey/Causal-Normative_Networks
 **Preprint:** https://philarchive.org/rec/REYEWW
 **Working submission title:** Effective without warrant: Causal-normative networks and the social life of status
@@ -15,18 +15,19 @@ Working orientation: Khalidi-forward. Khalidi supplies the network-order/project
 
 ## Current Thesis
 
-Some social and moral explanations need causal relations and normative transitions represented in one coupled structure. A causal-normative network has three directed edge types (causal, normative-transition, recognitional) plus a non-directed constitutive tie. Its key payoff is projectibility across typed edges plus the assessment vocabulary: social efficacy, institutional field-validity, communal successful conferral, recognitional fit, enforceability/finality, and moral warrant.
+Some social and moral explanations need causal production, recognitional representation, and field-grounded status-determination represented in one coupled structure. A causal-normative network has three relation-genera displayed by four graph roles: causal edges, recognitional edges, directed status-transition edges, and non-directed correlative ties. Its key payoff is projectibility across those graph roles plus the assessment vocabulary: social efficacy, institutional field-validity, communal successful conferral, recognitional fit, enforceability/finality, and moral warrant.
 
 Misrecognition and wrongful conferral are diagnostic. A status-assignment can be socially effective, and sometimes field-valid or successfully conferred, without acquiring moral warrant. Discrimination is now treated as wrongful conferral at regime scale, not merely as false belief or local tracking failure.
 
 ## What Exists Now
 
 - `main.tex`: current polished draft with all sections written, two TikZ figures, two tables, and review rounds addressed.
-- `main.pdf`: current build, 19 pages.
+- `main.pdf`: current build, 22 pages.
 - PhilArchive preprint: `https://philarchive.org/rec/REYEWW` (archival date 2026-05-26).
 - `submission/jso/`: blind JSO package generated from `scripts/build_jso_submission.py`, including DOCX, RTF, internal-check PDF, figures, blind source, and submission checks.
 - `abstract.md`: synced to the current abstract framing.
 - `planning/brief.md`: original design brief, still useful for architecture and title options but partly superseded by the current draft.
+- `planning/submitted-vs-current-delta.md`: operational map from the submitted JSO package to the post-submission working draft; use this when reviews arrive.
 - `planning/source-map.md`: updated section-by-section source map and local-source inventory.
 - `references-standalone.bib`: public-build bibliography extracted from verified central entries, with the added ALI Judgments entry verified against ALI's official publication page.
 - `references-local.bib`: scratch file only for future verified additions; current public builds use `references-standalone.bib`.
@@ -39,9 +40,9 @@ The implementation pass addressed the 2026-05-26 GPT-5.5 xhigh field/validity bo
 The current draft incorporates:
 
 - assessment vocabulary: efficacy / field-validity or successful conferral / moral warrant;
-- regularized edge inventory: three directed edges plus a constitutive tie;
+- regularized edge inventory: three relation-genera displayed by four graph roles: causal, recognitional, directed status-transition, and non-directed correlative;
 - recognition as fit, mis-fit, or no target;
-- broader normative-transition sources: performances, rules, statuses, and transition events;
+- broader status-transition sources: performances, rules, statuses, and transition events;
 - §6 distinction between local misrecognition and wrongful conferral;
 - Figure 2 as wrongful conferral, with harm downstream of exclusion/sanction;
 - weakened overclaims about projectibility and explanatory reach;
@@ -49,7 +50,7 @@ The current draft incorporates:
 - Fraser/Honneth guardrail against over-recognition accounts of oppression;
 - simplified field account: a field is an ordinary normative practice or domain, not an HPC or a front-door Epstein apparatus;
 - Boyd supports field-relative projectibility/accommodation; Messick 1995 is only a limited analogy for validity as interpretation/use-relative;
-- network-as-representation language: grounding and anchoring are not replaced by the graph;
+- network-as-representation language: the graph represents real dependence relations without becoming a further ground or social object;
 - a field-indexed projection ledger in §4 and a projectibility-forward conclusion;
 - a §6 assessment table separating social efficacy, institutional field-validity, communal successful conferral, recognitional fit, enforceability/finality, and moral warrant;
 - judgment as the institutional authorized-recognition case, with cautious ALI Judgments support;
@@ -57,7 +58,7 @@ The current draft incorporates:
 - a direct answer to the strongest rival: grounding/anchoring plus causal mechanisms do useful work, but the network represents the cross-edge projection profile;
 - Figure 2 as wrongful communal conferral, not a simple false-recognition diagram;
 - polished abstract and table lead-ins, with judgment/legal language softened and source-tethered;
-- final submission-prep micro-edits from the May 26 assessment: status-assignments in the abstract, distributive payoff sentence, Table 2 diagnostic-grid lead-in, and conclusion naming causal uptake, normative transition, recognition, and constitutive ties.
+- final submission-prep micro-edits from the May 26 assessment: status-assignments in the abstract, distributive payoff sentence, Table 2 diagnostic-grid lead-in, and conclusion naming the coupled projection routes. The current post-submission working draft supersedes the submitted edge-inventory wording.
 
 Declined for this paper: Lewis, Brandom, Hacking, and Haslanger. They pull toward adjacent projects; Sbisà, Ásta, Epstein, Searle, Weinberger, Kohler-Hausmann, Hu, and Fraser/Honneth are enough for the present argument.
 
@@ -71,9 +72,31 @@ Declined for this paper: Lewis, Brandom, Hacking, and Haslanger. They pull towar
 
 1. Wait for the Journal of Social Ontology editorial response.
 2. If the submission acknowledgement includes a manuscript ID, add it here and to `PORTFOLIO.md`.
-3. Keep the LaTeX canonical draft as the source of truth for any later revision or proof work; regenerate the package with `python3 scripts/build_jso_submission.py` after manuscript edits.
+3. When reviews arrive, remember that `main.tex`/`main.pdf` now differ from the submitted JSO package. Compare referee comments against the submitted package in `submission/jso/` before drafting the response or deciding what has already been fixed.
+4. Keep the LaTeX canonical draft as the source of truth for any later revision or proof work; regenerate the package with `python3 scripts/build_jso_submission.py` after manuscript edits.
+5. Revision-only literature flag: if reopening the field/practice/stabilisation apparatus, consider Weinberger (2026), `weinberger2026HomeostasisCausalControl`. Use it to prevent drift back toward "field as HPC"; fields should remain practice-relative parameter/regime structures unless a real corrective-control loop is being claimed.
+6. Revision-only public-update analogy: if reopening §4, §6, or the projection ledger, consider the narrow analogy to the operator-stratum paper. Promises, judgments, and wrongful conferrals are not grammatical operators, but they are public-update structures with accountability, uptake, and repair/finality consequences. Use only as backstage architecture unless a reviewer asks for cross-domain clarification.
 
 ## Session Log
+
+### 2026-06-13
+- Integrated the June 13 edge-typing/referee-risk analysis into the canonical working draft. The paper now treats the network as three relation-genera displayed by four graph roles, not four primitive dependence types: causal production, recognitional representation, and status-determination, with status-determination split between directed transitions and non-directed correlatives.
+- Repaired the intervention/probe claim: strict Woodwardian intervention is reserved for causal edges; counterfactual probes reveal the projection profile but are not a one-step classifier for every edge. Replaced the deflationary "representational" hedge with modest realism about the represented relations.
+- Strengthened the regime case: episode-to-position transition now turns on recursive stabilization by empowered uptake plus new projectible consequences, and partial separability is treated as stage-relative rather than as a failed diagnostic.
+- Added explicit field-parameter constraints: the framework misfires without stabilized moves/statuses/standing relations, record or uptake routes, intelligible defeaters, and projectible consequences.
+- Created `planning/edge-typing-integrated-revision.md` as the Roughdraft-reviewed revision memo. Rebuilt `main.pdf`; build succeeds. Remaining LaTeX warnings are pre-existing `fancyhdr` headheight warnings and one small overfull vbox.
+- Reread the key source set against the post-submission working draft: Jenkins, Ásta, Epstein, Khalidi, Woodward, Weinberger, Hu, and Kohler-Hausmann. Jenkins full text was still not locally available and the Nottingham repository copy is blocked by Cloudflare from this environment, so the Jenkins check rests on publisher abstracts, PhilPapers metadata, and the NDPR review rather than a full chapter/article reread.
+- Source check supports the current working-draft fixes: Jenkins is now scoped across wrongful institutional validity and wrongful communal conferral; the division-of-labour reply is framed as projection-profile perspicuity; moral warrant is not treated as field-validity in a moral field; modularity is made field-relative in conferralist cases; the episode/position and entrenchment-threshold contrast is explicit; Hu is correctly treated as forthcoming.
+- Follow-up edits after the edge-typing review added the false-recognition/wrongful-conferral exhibit to the division-of-labour reply, gave status-determination a positive mark as determination rather than production, added the Almäng route-map sentence, and added a moral-warrant guardrail against reducing warrant to efficacy or successful conferral.
+- Verified the remaining source-status checks: Khalidi (2013) pp. 211--212 support the causal-network/special-science contrast; Bertrand and Mullainathan (2004) pp. 997--998 support the callback-rate figures; Hu's article remains forthcoming in \emph{The Journal of Philosophy} on Hu's official research page and in the PhilArchive draft metadata/text.
+- Added `planning/submitted-vs-current-delta.md` to preserve the review-response procedure: answer reviewers against the submitted `submission/jso/` package first, then map already-fixed objections to the canonical working draft.
+- Rebuilt `main.pdf`; build succeeds at 22 pages. The only log warnings are pre-existing `fancyhdr`/`microtype` template warnings. Continue to remember that the under-review JSO package predates these working-draft fixes.
+
+### 2026-06-12
+- Confirmed the paper is already under consideration at Journal of Social Ontology: submitted 2026-05-27 and still under review, with no manuscript ID recorded locally.
+- Completed a post-submission working revision pass in the canonical LaTeX source: added Jenkins on ontic injustice, scoped that category across wrongful institutional validity and wrongful communal conferral, softened the §4 and conclusion division-of-labour reply to a projection-profile/perspicuity claim, added the morality-as-field answer, added the field-relative modularity caveat for conferralist cases, specified the episode/position and entrenchment-threshold contrast, added the Guala-Hindriks footnote, fixed possessive citation phrasing, switched Hu to forthcoming, and added Restatement section references.
+- Rebuilt `main.pdf` with the updated source. The submitted `submission/jso/` package was not regenerated in this pass, so the under-review manuscript and current working draft now diverge.
+- Created `planning/jenkins-division-labour-draft.md` as a working note for the Jenkins and division-of-labour revisions.
 
 ### 2026-05-27
 - Submitted "Effective without warrant: Causal-normative networks and the social life of status" to the Journal of Social Ontology as a regular article. Status is now under review; manuscript ID not yet recorded.
