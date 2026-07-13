@@ -20,7 +20,7 @@ cue regex doesn't parse). Every "glossed" location is auditable below.
 | field | free | abstract use ("within a practice or field") is the plain-language sense in apposition to "practice"; technical sense defined in §1 (\term{field} paragraph) |
 | recognitional representation | free | abstract use is inside the network definition's typed-tie inventory; defined in §1 ("Second, recognitional representation: a belief, record, or official classification purports to track...") |
 | profile | free | only surviving sense is "projection profile", defined at first use in §4 ("which inferences it supports, along which edges, with which defeaters"); colon-apposition gloss |
-| social cascade | free | defined at first use in §4 by en-dash apposition ("the run of responses in which one agent's uptake becomes the next agent's cue") |
+| social cascade | free | defined at first use in §4 by parenthetical gloss ("the run of responses in which one agent's uptake becomes the next agent's cue") |
 | cascade | free | only occurs inside "social cascade"; see that row |
 | False recognition | free | abstract use is compositional (a recognition that is false: "what a false recognition can still cause"), immediately contrasted with wrongful conferral; formally defined as a named failure mode in §6 |
 | uptake | earned | glossed at first §1 use ("uptake -- the responses that act on the recognition") |
