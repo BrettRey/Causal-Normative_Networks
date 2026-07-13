@@ -182,6 +182,25 @@ def cleanup_crossrefs(text: str) -> str:
     return text
 
 
+def number_sections(md: str) -> str:
+    """Prefix body-level headings with section numbers.
+
+    Pandoc resolves in-text ``Section~\\ref{}`` references to LaTeX section
+    numbers, but the markdown headings themselves carry no numbers, so the
+    DOCX/RTF output references numbered sections that don't exist (a JSO
+    referee flagged exactly this, 2026-07-13). Number every level-1 heading
+    in the pandoc body in order; the counter matches pandoc's \\ref
+    resolution because both walk the same headings.
+    """
+    counter = 0
+    lines = md.splitlines()
+    for i, line in enumerate(lines):
+        if line.startswith("# ") and "{.unnumbered}" not in line:
+            counter += 1
+            lines[i] = f"# {counter}. {line[2:]}"
+    return "\n".join(lines) + "\n"
+
+
 def strip_html(text: str) -> str:
     text = cleanup_crossrefs(text)
     text = re.sub(r"<[^>]+>", "", text)
@@ -250,6 +269,7 @@ def make_markdown() -> None:
     )
     md = cleanup_crossrefs(md)
     md = decontract(md)
+    md = number_sections(md)
 
     abstract, keywords = abstract_and_keywords()
     front = f"""---

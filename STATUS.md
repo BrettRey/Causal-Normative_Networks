@@ -1,7 +1,7 @@
 # STATUS.md - Causal-Normative Networks
 
 **Last updated:** 2026-07-13
-**Current phase:** REJECTED after review at Journal of Social Ontology (2026-07-13; editor Emma Tieffenbach; two referees; final, no resubmission). Public surfaces reverted to Preprint (PhilArchive REYEWW); reviews saved at `submission/jso/reviews-2026-07-13.md`. Both referees: the problem/debate is not identified and terminology substitutes for analysis; Reviewer B: the Khalidi-projectibility-to-social extension is unmotivated. Diagnostic note: the paper's thesis is well-specified in `planning/brief.md` (typed causal-normative network; four dependence types; forced-choice view as opponent; social-efficacy-vs-moral-validity payoff) — the failure is that this did not reach the page legibly. Needs substantive revision (state the problem/debate up front, number sections, define terms, motivate the projectibility transfer) before any retarget.
+**Current phase:** REJECTED after review at Journal of Social Ontology (2026-07-13; editor Emma Tieffenbach; two referees; final, no resubmission). Public surfaces reverted to Preprint (PhilArchive REYEWW); reviews saved at `submission/jso/reviews-2026-07-13.md`; verified triage at `reviews/jso-rejection-triage-2026-07-13.md`. The section-numbering bug is root-caused and fixed (pandoc DOCX conversion in `scripts/build_jso_submission.py`, not the LaTeX; fix verified, archived package left as the record). Remaining revision before any retarget: name the forced-choice opponent and target debate on page one, define terms at first use (social cascade, anchoring, life-cycle, causal-normative network), resolve the "profile" polysemy, and settle projection-vs-read-off (Brett's call). Retarget via /venue-selection with a venue decision record.
 **GitHub:** https://github.com/BrettRey/Causal-Normative_Networks
 **Preprint:** https://philarchive.org/rec/REYEWW
 **Working submission title:** Effective without warrant: Causal-normative networks and the social life of status
@@ -70,12 +70,13 @@ Declined for this paper: Lewis, Brandom, Hacking, and Haslanger. They pull towar
 
 ## Next Actions
 
-1. Wait for the Journal of Social Ontology editorial response.
-2. If the submission acknowledgement includes a manuscript ID, add it here and to `PORTFOLIO.md`.
-3. When reviews arrive, remember that `main.tex`/`main.pdf` now differ from the submitted JSO package. Compare referee comments against the submitted package in `submission/jso/` before drafting the response or deciding what has already been fixed.
-4. Keep the LaTeX canonical draft as the source of truth for any later revision or proof work; regenerate the package with `python3 scripts/build_jso_submission.py` after manuscript edits.
-5. Revision-only literature flag: if reopening the field/practice/stabilisation apparatus, consider Weinberger (2026), `weinberger2026HomeostasisCausalControl`. Use it to prevent drift back toward "field as HPC"; fields should remain practice-relative parameter/regime structures unless a real corrective-control loop is being claimed.
-6. Revision-only public-update analogy: if reopening §4, §6, or the projection ledger, consider the narrow analogy to the operator-stratum paper. Promises, judgments, and wrongful conferrals are not grammatical operators, but they are public-update structures with accountability, uptake, and repair/finality consequences. Use only as backstage architecture unless a reviewer asks for cross-domain clarification.
+1. Brett decides the projection-vs-read-off question (see `reviews/jso-rejection-triage-2026-07-13.md`, defer item 1): restrict "projection" to defeasible cross-edge inference, or defend the broad notion against Reviewer B's disanalogy charge. This decision shapes the §2 and §4 revisions.
+2. Brett decides keep/cut on the uncommitted 2026-07-04 Pearl addition (`main.tex` §5 sentence + `pearl2009` in `references-standalone.bib`; builds cleanly; flagged in the triage memo because it adds another apparatus name of the sort Reviewer B objected to).
+3. Revision pass on the working draft: §1 names the forced-choice opponent and the target debate with the payoff in that debate's terms; define social cascade, anchoring (move the Epstein gloss forward from §7), life-cycle, and causal-normative network at first use; reserve "profile" for projection profile only.
+4. Retarget via /venue-selection with a venue decision record in `submission/` before any target-specific files. The venue and the debate §1 names must match.
+5. Regenerate any future package with `python3 scripts/build_jso_submission.py` (section-numbering fix now included; the JSO-named paths/filenames need retargeting to the new venue first). Do not overwrite `submission/jso/`; it is the archived record of what JSO reviewed.
+6. Revision-only literature flag: if reopening the field/practice/stabilisation apparatus, consider Weinberger (2026), `weinberger2026HomeostasisCausalControl`. Use it to prevent drift back toward "field as HPC"; fields should remain practice-relative parameter/regime structures unless a real corrective-control loop is being claimed.
+7. Revision-only public-update analogy: if reopening §4, §6, or the projection ledger, consider the narrow analogy to the operator-stratum paper. Promises, judgments, and wrongful conferrals are not grammatical operators, but they are public-update structures with accountability, uptake, and repair/finality consequences. Use only as backstage architecture unless a reviewer asks for cross-domain clarification.
 
 ## Session Log
 
