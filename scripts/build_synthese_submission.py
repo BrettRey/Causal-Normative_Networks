@@ -40,15 +40,25 @@ TITLE_PAGE = r"""\documentclass[12pt]{article}
 
 \vspace{2em}
 Brett Reynolds \orcidlink{0000-0003-0073-7195}\\
-Humber Polytechnic \& University of Toronto\\
-\href{mailto:brett.reynolds@humber.ca}{brett.reynolds@humber.ca}
+Humber Polytechnic, Toronto, Ontario, Canada\\
+University of Toronto, Toronto, Ontario, Canada\\
+Corresponding author: \href{mailto:brett.reynolds@humber.ca}{brett.reynolds@humber.ca}
 \end{center}
 
 \vspace{3em}
-\noindent\textbf{Acknowledgements.} The large language models Claude (Opus 4.8 and Fable 5) and ChatGPT (GPT-5.6) served as drafting and editing aids throughout the preparation of this paper. I am responsible for all theoretical claims, arguments, errors, and interpretive choices.
+\noindent\textbf{Acknowledgements.} The large language models Claude (Opus 4.8 and Fable 5) and ChatGPT (GPT-5.6) served as drafting and editing aids throughout the preparation of this paper, beyond AI-assisted copy editing. I am responsible for all theoretical claims, arguments, errors, and interpretive choices.
 
 \vspace{1em}
-\noindent\textbf{Declarations.} The author has no competing interests. No external funding supported this work. A preprint is available at PhilArchive (\url{https://philarchive.org/rec/REYEWW}).
+\noindent\textbf{Statements and Declarations}
+
+\vspace{0.5em}
+\noindent\textbf{Competing interests.} The author has no relevant financial or non-financial interests to disclose.
+
+\vspace{0.5em}
+\noindent\textbf{Funding.} No funding was received to assist with the preparation of this manuscript.
+
+\vspace{0.5em}
+\noindent\textbf{Preprint.} A preprint is available at PhilArchive (\url{https://philarchive.org/rec/REYEWW}).
 
 \end{document}
 """
@@ -74,8 +84,20 @@ def make_anon_tex() -> None:
         "\\hypersetup{\n  pdftitle=",
         "\\hypersetup{\n  pdfauthor={},\n  pdftitle=",
     )
-    # Acknowledgements move to the separate title page.
-    text = re.sub(r"\\section\*\{Acknowledgements\}.*?(?=\\newpage)", "", text, flags=re.S)
+    # Acknowledgements move to the separate title page. Springer requires the
+    # LLM use documented in the manuscript itself (no Methods section, so a
+    # declarations block), phrased non-identifyingly for anonymized review.
+    text = re.sub(
+        r"\\section\*\{Acknowledgements\}.*?(?=\\newpage)",
+        "\\\\section*{Statements and declarations}\n\n"
+        "The author has no relevant financial or non-financial interests to "
+        "disclose. The large language models Claude and ChatGPT served as "
+        "drafting and editing aids in the preparation of this paper, beyond "
+        "AI-assisted copy editing; the author is responsible for all "
+        "theoretical claims, arguments, errors, and interpretive choices.\n\n",
+        text,
+        flags=re.S,
+    )
     ANON_TEX.write_text(text, encoding="utf-8")
 
 

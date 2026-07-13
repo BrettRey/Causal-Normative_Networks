@@ -22,6 +22,7 @@ cue regex doesn't parse). Every "glossed" location is auditable below.
 | profile | free | only surviving sense is "projection profile", defined at first use in §4 ("which inferences it supports, along which edges, with which defeaters"); colon-apposition gloss |
 | social cascade | free | defined at first use in §4 by en-dash apposition ("the run of responses in which one agent's uptake becomes the next agent's cue") |
 | cascade | free | only occurs inside "social cascade"; see that row |
+| False recognition | free | abstract use is compositional (a recognition that is false: "what a false recognition can still cause"), immediately contrasted with wrongful conferral; formally defined as a named failure mode in §6 |
 | uptake | earned | glossed at first §1 use ("uptake -- the responses that act on the recognition") |
 | conferral | earned | Ásta's apparatus; glossed in §6 with citation at first substantive use |
 | anchoring | earned | glossed in §1 ("anchoring names the facts that put those frame principles in place", Epstein cited) |

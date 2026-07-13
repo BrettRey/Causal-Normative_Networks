@@ -18,11 +18,23 @@
 - `submission-checks.md` — anonymity scan output.
 - Regenerate everything with `python3 scripts/build_synthese_submission.py`.
 
-## Before upload (human steps)
+## Guidelines confirm (DONE 2026-07-13)
 
-1. Confirm the live Synthese submission guidelines in a browser (Springer cookie-walled agent access on 2026-07-13; parameters used here came from search snapshots: no fixed length limit, LaTeX source + PDF, anonymized review, acknowledgements on title page). Include the current Springer Nature AI-policy text in the same check: the title-page disclosure follows the disclosure model (documented use, no AI authorship, full human responsibility), and as last verified no section-by-section attribution is required, but these policies change fast (GLM-5.2 review, 2026-07-13, flagged the same).
-2. Submit via Editorial Manager: https://www.editorialmanager.com/synt
-3. Record the manuscript ID here, in `STATUS.md`, and in `PORTFOLIO.md`; update the CV/website surfaces via /status-surface-update.
+Brett pasted the live guidelines page during registration; four deltas found against the package and all fixed same day:
+
+- **Abstract 150–250 words:** was 126; now 185 (concrete projections restored; interventionist-typing/misrecognition sentence added).
+- **Keywords 4–6:** cut ten to six (social ontology, social kinds, projectibility, causal-normative networks, recognition, discrimination); pdfkeywords and abstract.md synced.
+- **Title page:** affiliations now carry city/country; "Statements and Declarations" heading with competing interests, funding, and preprint statements (guidelines: submissions without declarations "will be returned as incomplete").
+- **LLM documentation in the manuscript itself:** the anonymized manuscript now ends with a non-identifying "Statements and declarations" section documenting LLM use beyond AI-assisted copy editing; full model names stay on the title page. This tracks Springer's rule that LLM use be documented in the manuscript (no Methods section, so a declarations block), while the copy-editing exemption language mirrors their own.
+
+Also verified: double-anonymized review with reviewer-editor interaction only; no resubmission of rejected papers (n/a); third-person self-citation rule (n/a: no self-citations); footnotes not endnotes (ok); ≤3 heading levels (ok); anon-bundle compiles standalone with XeLaTeX (tested in a clean directory, 22 pp; needs the Charis SIL font, so if Editorial Manager's build system lacks it, the uploaded compiled PDF covers review — upload tex/bib/style files as type "manuscript" per the guidelines note).
+
+Deferred to the accept-but-incomplete stage (per the guidelines' own workflow): de-anonymization, and reference-list conversion toward APA 7 with full DOI links (house biblatex is already author-date; cosmetic conversion is a production-stage task).
+
+## Upload steps (human)
+
+1. Submit via Editorial Manager: https://www.editorialmanager.com/synt (registration in progress 2026-07-13).
+2. Record the manuscript ID here, in `STATUS.md`, and in `PORTFOLIO.md`; update the CV/website surfaces via /status-surface-update.
 
 ## Watch items carried from the venue record
 
