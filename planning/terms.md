@@ -23,7 +23,7 @@ cue regex doesn't parse). Every "glossed" location is auditable below.
 | social cascade | free | defined at first use in §4 by parenthetical gloss ("the run of responses in which one agent's uptake becomes the next agent's cue") |
 | cascade | free | only occurs inside "social cascade"; see that row |
 | False recognition | free | abstract use is compositional (a recognition that is false: "what a false recognition can still cause"), immediately contrasted with wrongful conferral; formally defined as a named failure mode in §6 |
-| uptake | earned | glossed at first §1 use ("uptake -- the responses that act on the recognition") |
+| uptake | earned | glossed at first §1 use, in the debate paragraph ("uptake, the responses that act on a recognized status") |
 | conferral | earned | Ásta's apparatus; glossed in §6 with citation at first substantive use |
 | anchoring | earned | glossed in §1 ("anchoring names the facts that put those frame principles in place", Epstein cited) |
 | life-cycle | earned | glossed at first §1 use ("the recurring sequence a promise runs from creation to discharge") |
