@@ -20,7 +20,7 @@
 
 ## Before upload (human steps)
 
-1. Confirm the live Synthese submission guidelines in a browser (Springer cookie-walled agent access on 2026-07-13; parameters used here came from search snapshots: no fixed length limit, LaTeX source + PDF, anonymized review, acknowledgements on title page).
+1. Confirm the live Synthese submission guidelines in a browser (Springer cookie-walled agent access on 2026-07-13; parameters used here came from search snapshots: no fixed length limit, LaTeX source + PDF, anonymized review, acknowledgements on title page). Include the current Springer Nature AI-policy text in the same check: the title-page disclosure follows the disclosure model (documented use, no AI authorship, full human responsibility), and as last verified no section-by-section attribution is required, but these policies change fast (GLM-5.2 review, 2026-07-13, flagged the same).
 2. Submit via Editorial Manager: https://www.editorialmanager.com/synt
 3. Record the manuscript ID here, in `STATUS.md`, and in `PORTFOLIO.md`; update the CV/website surfaces via /status-surface-update.
 
@@ -28,3 +28,4 @@
 
 - A referee may want deeper natural-kinds coverage (Boyd beyond 1999, Millikan, Franklin-Hall); prepared position: the Khalidi-forward scaffold is deliberate and defended in §2.
 - Copilot's cold-read note suggests a possible one-sentence §1 forward-pointer that the division-of-labour rival is answered in §4; optional, Brett's call.
+- Anticipated referee question (GLM-5.2 review, 2026-07-13): how does the field parameter differ from Epstein's frame principles or Searle's Background beyond parameterizing the graph? Prepared position: §7 argues the field parameterizes the network rather than sitting in it as a node (the Hindriks node-vs-parameter point), with Epstein's frame/anchor machinery explicitly backstage; the field adds the practice-relative projection repertoire, not a rival metaphysics. Triage of the same review found Figure 1's legend already maps one-to-one onto the four graph roles, so no manuscript change was made.
