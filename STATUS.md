@@ -1,7 +1,7 @@
 # STATUS.md - Causal-Normative Networks
 
-**Last updated:** 2026-06-13
-**Current phase:** Submitted to Journal of Social Ontology on 2026-05-27; under review. The canonical draft now includes post-submission working revisions.
+**Last updated:** 2026-07-13
+**Current phase:** REJECTED after review at Journal of Social Ontology (2026-07-13; editor Emma Tieffenbach; two referees; final, no resubmission). Public surfaces reverted to Preprint (PhilArchive REYEWW); reviews saved at `submission/jso/reviews-2026-07-13.md`. Both referees: the problem/debate is not identified and terminology substitutes for analysis; Reviewer B: the Khalidi-projectibility-to-social extension is unmotivated. Diagnostic note: the paper's thesis is well-specified in `planning/brief.md` (typed causal-normative network; four dependence types; forced-choice view as opponent; social-efficacy-vs-moral-validity payoff) — the failure is that this did not reach the page legibly. Needs substantive revision (state the problem/debate up front, number sections, define terms, motivate the projectibility transfer) before any retarget.
 **GitHub:** https://github.com/BrettRey/Causal-Normative_Networks
 **Preprint:** https://philarchive.org/rec/REYEWW
 **Working submission title:** Effective without warrant: Causal-normative networks and the social life of status
