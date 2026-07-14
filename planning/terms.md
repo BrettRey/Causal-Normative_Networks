@@ -28,6 +28,7 @@ cue regex doesn't parse). Every "glossed" location is auditable below.
 | anchoring | earned | glossed in §1 ("anchoring names the facts that put those frame principles in place", Epstein cited) |
 | life-cycle | earned | glossed at first §1 use ("the recurring sequence a promise runs from creation to discharge") |
 | read-off | earned | defined in §2 ("a read-off, not a prediction") and §4 ("given the duty, the claim-right is not a further expectation but the same relation redescribed") |
+| do-operator | earned | glossed by appositive at sole use in §5 ("Pearl's formal device for setting a node by fiat", tying back to the intervention-level gloss in the previous sentence) |
 | status-determination | earned | defined in §1 (Third, ...: "field-grounded relations fix whether a status obtains") |
 | homeostatic | earned | not used in this paper; watchlist entry only |
 | stabilizer | earned | not used in this paper; watchlist entry only |
