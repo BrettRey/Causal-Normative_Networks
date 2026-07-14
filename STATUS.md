@@ -80,6 +80,16 @@ Declined for this paper: Lewis, Brandom, Hacking, and Haslanger. They pull towar
 
 ## Session Log
 
+### 2026-07-13/14 (rejection-to-resubmission session)
+- Triaged the JSO rejection against the archived submitted package; root-caused Reviewer A's section-numbering complaint to the pandoc DOCX conversion (not the LaTeX) and fixed the build script.
+- Revision wave 1 (referee-driven, Brett's three calls): forced-choice opponent named and placed on page one; projection restricted to defeasible inference with correlative read-offs set apart; all flagged terms defined at first use; "profile" reserved for projection profile; Pearl folded in plainly; refutation-conditions passage added to the conclusion.
+- Venue: /venue-selection chose Synthese (decision record in submission/); /submission-gate passed (3 cross-model hostile cold readers, terminology gate, correctness, anonymity); Synthese guidelines confirmed live and four compliance deltas fixed (abstract 185w, six keywords, five-subheading declarations, in-manuscript LLM note).
+- Revision wave 2 (Brett's line-read): decompression fan-out audit, full contraction directive, kind→type split, dash→parenthesis conversion, citation repositioning, paragraph-opening audit, THE thorough structural-redundancy edit (3 auditor fleets, 28 reconciled cuts), three scar passes, Lakoff metaphor audit (8 Codex section auditors; report in reviews/). Net 9,753→~9,020 words, 21 pp.
+- Framework additions: uptake-need-not-be-endorsement (via the Fisher-application memo, recast in the paper's own cases) and the remedies-sorted-by-failure-mode paragraph with the decay clause.
+- PhilArchive REYEWW updated to the current version; SUBMITTED to Synthese 2026-07-14 as SYNT-D-26-02696; all public surfaces flipped to Under review.
+- Process: git add -A swept another session's file (Fisher memo) into the public repo unread; expunged from history within minutes; staging is by-name now. The Fisher file's placement awaits Brett.
+
+
 ### 2026-07-13
 - Verified the JSO referee reports against the archived submitted package and recorded the triage at `reviews/jso-rejection-triage-2026-07-13.md`. Root-caused Reviewer A's section-numbering complaint to the pandoc DOCX conversion in `scripts/build_jso_submission.py` (the LaTeX numbers sections correctly); added and tested `number_sections()`; left `submission/jso/` untouched as the record of what JSO reviewed.
 - Completed the post-rejection revision with Brett's three calls: restrict projection to defeasible inference (read-offs set apart), keep the Pearl addition folded in plainly, frame philosophy-general pending venue selection. Page one now names the forced-choice opponent and places the debate; the conclusion bookends it. Defined causal-normative network, social cascade, life-cycle, projection profile, and anchoring at first use; glossed projectibility with Goodman 1955 at first mention; reserved "profile" for projection profile throughout.
