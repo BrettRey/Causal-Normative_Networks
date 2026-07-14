@@ -15,6 +15,7 @@
 - `main.anon.tex` + `anon-bundle/` — scrubbed LaTeX source (tex, scrubbed preamble, bib) for the source upload.
 - `title-page.pdf` / `title-page.tex` — author block, ORCID, contact, acknowledgements (AI disclosure with model names: Claude Opus 4.8 & Fable 5; ChatGPT GPT-5.6), declarations, preprint pointer.
 - `cover-letter.md` — to paste into Editorial Manager.
+- PhilArchive REYEWW updated to the current revision 2026-07-14 (a referee who searches the title now finds the paper under review, not the JSO-era draft).
 - `submission-checks.md` — anonymity scan output.
 - Regenerate everything with `python3 scripts/build_synthese_submission.py`.
 

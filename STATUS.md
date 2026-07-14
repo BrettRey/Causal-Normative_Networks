@@ -3,7 +3,7 @@
 **Last updated:** 2026-07-13
 **Current phase:** SYNTHESE PACKAGE READY (2026-07-13); awaiting Brett's Editorial Manager upload. Submission gate passed in full: cold-read legibility gate 0/3 MISSING and 2/3 advance across three cross-model hostile readers (the JSO defect verified fixed); terminology gate exit 0 against `planning/terms.md`; correctness, content, and anonymity checks clean. Package at `submission/synthese/` (anon PDF, scrubbed source bundle, title page with model-named AI disclosure, cover letter); upload checklist in `submission/synthese/submission-notes.md`. Venue record: `submission/venue-decision-2026-07-13.md` (fallbacks Ergo, Philosophical Studies). JSO rejected after review (final, no resubmission; reviews at `submission/jso/reviews-2026-07-13.md`, verified triage at `reviews/jso-rejection-triage-2026-07-13.md`). All triage adopt-items landed: section-numbering bug fixed in `scripts/build_jso_submission.py` (pandoc DOCX conversion, not the LaTeX); forced-choice opponent named on page one with the debate placed and bookended in the conclusion; projection restricted to defeasible inference with correlative read-offs set apart (Brett's call); causal-normative network, social cascade, life-cycle, projection profile, and anchoring all defined at first use; projectibility glossed with Goodman 1955 at first mention; "profile" reserved for projection profile; Pearl folded in plainly (Brett's call). Build clean, 22 pp, texcount 9,649. Next: retarget via /venue-selection with a venue decision record (framing is philosophy-general, Synthese/Ergo/Phil Studies tier).
 **GitHub:** https://github.com/BrettRey/Causal-Normative_Networks
-**Preprint:** https://philarchive.org/rec/REYEWW
+**Preprint:** https://philarchive.org/rec/REYEWW (updated to the post-rejection revision 2026-07-14; original archival 2026-05-26)
 **Working submission title:** Effective without warrant: Causal-normative networks and the social life of status
 **Venue:** Synthese, regular article (retarget approved 2026-07-13; not yet submitted). Prior: Journal of Social Ontology, submitted 2026-05-27, rejected after review 2026-07-13 (final).
 
@@ -70,7 +70,8 @@ Declined for this paper: Lewis, Brandom, Hacking, and Haslanger. They pull towar
 
 ## Next Actions
 
-1. Brett: browser-confirm the live Synthese submission guidelines (Springer cookie-walled agent access), then upload via Editorial Manager (https://www.editorialmanager.com/synt) using the package and checklist in `submission/synthese/submission-notes.md`.
+1. DONE 2026-07-13/14: guidelines confirmed, PhilArchive updated to the current version. Remaining: Brett uploads via Editorial Manager (https://www.editorialmanager.com/synt) using submission/synthese/ and its notes.
+2. ORIGINAL: (Springer cookie-walled agent access), then upload via Editorial Manager (https://www.editorialmanager.com/synt) using the package and checklist in `submission/synthese/submission-notes.md`.
 2. On submission: record the manuscript ID here and in `PORTFOLIO.md`; update CV/website surfaces via /status-surface-update ("Under review at Synthese").
 3. Optional pre-upload tweak (Brett's call, from the Copilot cold-read note): a one-sentence §1 forward-pointer that the division-of-labour rival is answered in §4.
 4. Do not overwrite `submission/jso/` (archived record of what JSO reviewed); regenerate the Synthese package only via `python3 scripts/build_synthese_submission.py`.
