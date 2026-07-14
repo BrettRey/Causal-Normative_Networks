@@ -29,6 +29,10 @@ cue regex doesn't parse). Every "glossed" location is auditable below.
 | life-cycle | earned | glossed at first §1 use ("the recurring sequence a promise runs from creation to discharge") |
 | read-off | earned | defined in §2 ("a read-off, not a prediction") and §4 ("given the duty, the claim-right is not a further expectation but the same relation redescribed") |
 | do-operator | earned | glossed by appositive at sole use in §5 ("Pearl's formal device for setting a node by fiat", tying back to the intervention-level gloss in the previous sentence) |
+| preclusion | free | always paired with "finality" or adjacent to the "treated as settled for procedural purposes" gloss; audited 2026-07-13 |
+| jural relation | free | Hohfeld's own vocabulary, always adjacent to his citation; audited 2026-07-13 |
+| accord and satisfaction | free | named only as an example of "discharge devices", which carries the meaning; audited 2026-07-13 |
+| vacatur | free | REMOVED 2026-07-13 (replaced with "reversal" in the ledger table); do not reintroduce unglossed |
 | status-determination | earned | defined in §1 (Third, ...: "field-grounded relations fix whether a status obtains") |
 | homeostatic | earned | not used in this paper; watchlist entry only |
 | stabilizer | earned | not used in this paper; watchlist entry only |
