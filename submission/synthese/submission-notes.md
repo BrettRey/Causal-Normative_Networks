@@ -1,5 +1,5 @@
 # Synthese Submission Notes
-<!-- SUMMARY: Package state and upload checklist for the Synthese submission · status: package ready, awaiting Brett's upload · updated: 2026-07-13 -->
+<!-- SUMMARY: Package state and upload checklist for the Synthese submission · status: SUBMITTED 2026-07-14, SYNT-D-26-02696, under review · updated: 2026-07-14 -->
 
 ## Gate results (2026-07-13)
 
@@ -34,8 +34,8 @@ Deferred to the accept-but-incomplete stage (per the guidelines' own workflow): 
 
 ## Upload steps (human)
 
-1. Submit via Editorial Manager: https://www.editorialmanager.com/synt (registration in progress 2026-07-13).
-2. Record the manuscript ID here, in `STATUS.md`, and in `PORTFOLIO.md`; update the CV/website surfaces via /status-surface-update.
+1. DONE: submitted 2026-07-14 as **SYNT-D-26-02696** (Original Research; PDF-only manuscript synthese-anon.pdf + regenerated title-page.pdf with the five declaration subheadings; office comment noted PDF-only with source on request, the split AI disclosure, and the preprint).
+2. DONE: surfaces updated 2026-07-14 via /status-surface-update.
 
 ## Watch items carried from the venue record
 
