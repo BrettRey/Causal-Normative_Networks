@@ -52,10 +52,16 @@ Corresponding author: \href{mailto:brett.reynolds@humber.ca}{brett.reynolds@humb
 \noindent\textbf{Statements and Declarations}
 
 \vspace{0.5em}
+\noindent\textbf{Availability of data and material.} Data availability statement: not applicable.
+
+\vspace{0.5em}
 \noindent\textbf{Competing interests.} The author has no relevant financial or non-financial interests to disclose.
 
 \vspace{0.5em}
 \noindent\textbf{Funding.} No funding was received to assist with the preparation of this manuscript.
+
+\vspace{0.5em}
+\noindent\textbf{Authors' contributions.} Brett Reynolds is the sole author and is responsible for the conception, drafting, and revision of the manuscript.
 
 \vspace{0.5em}
 \noindent\textbf{Preprint.} A preprint is available at PhilArchive (\url{https://philarchive.org/rec/REYEWW}).
