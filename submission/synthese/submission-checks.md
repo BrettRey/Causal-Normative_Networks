@@ -6,6 +6,6 @@
 - `brett.reynolds`: CLEAN
 - `0000-0003-0073-7195`: CLEAN
 - PDF metadata author field: `Author: (absent)`
-- Pages:           23
+- Pages:           22
 
 Overall: PASS
